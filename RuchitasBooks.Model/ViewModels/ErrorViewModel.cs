@@ -1,6 +1,6 @@
 using System;
 
-namespace RuchitasBookStore.Models
+namespace RuchitasBookStore.Models.ViewModels
 {
     public class ErrorViewModel
     {
