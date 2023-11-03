@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Logging;
 using RuchitasBookStore.Models.ViewModels;
 using System.Diagnostics;
+using RuchitasBookStore.Models;
 
 namespace RuchitasBookStore.Area.Customer.Controllers
 {
