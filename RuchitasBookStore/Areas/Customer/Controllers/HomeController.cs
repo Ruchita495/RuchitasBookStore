@@ -3,7 +3,7 @@ using Microsoft.Extensions.Logging;
 using RuchitasBookStore.Models.ViewModels;
 using System.Diagnostics;
 
-namespace RuchitasBookStore.Controllers
+namespace RuchitasBookStore.Area.Customer.Controllers
 {
     [Area("Customer")]
     public class HomeController : Controller
