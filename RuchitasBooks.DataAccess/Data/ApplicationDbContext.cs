@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace RuchitasBookStore.Data
+namespace RuchitasBookStore.DataAccess.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
