@@ -17,3 +17,6 @@ start part-2
 create database migration
 add-migration AddDefaultIdentityMigration -> use this command
 change the databse name in appsetting.json file
+
+2023-11-03 1230
+update dataqbase using - update-database command
