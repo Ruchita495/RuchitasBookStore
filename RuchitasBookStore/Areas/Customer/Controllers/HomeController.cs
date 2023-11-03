@@ -5,6 +5,7 @@ using System.Diagnostics;
 
 namespace RuchitasBookStore.Controllers
 {
+    [Area("Customer")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
