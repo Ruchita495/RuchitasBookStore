@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RuchitasBooks.Model
+namespace RuchitasBooks.Models
 {
-    class Category
+     public class Category
     {
         [Key]
         public int Id { get; set; }
