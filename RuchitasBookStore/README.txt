@@ -92,3 +92,9 @@ update database
 build the project
 Run the app it run successfully
 
+2023-11-04 0240
+add new class file called Category.cs and modify it according to slide
+
+2023-11-04 0244
+add migration using - add-migration AddCategoryToDb 
+
