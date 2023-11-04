@@ -82,3 +82,13 @@ Run the app it run successfully
 
 2023-11-02 1125
 Create a new project called RuchitasBooks.DataAccess,  RuchitasBooks.Models and  RuchitasBooks.Utility
+
+2023-11-03 1130
+start par-2
+create database migration
+update database
+
+2023-11-04 0230
+build the project
+Run the app it run successfully
+
