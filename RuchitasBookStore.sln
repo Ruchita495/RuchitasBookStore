@@ -3,18 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.34114.132
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuchitasBookStore", "RuchitasBookStore\RuchitasBookStore.csproj", "{F79DC451-8A24-4D34-8D09-CD658B355CE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RuchitasBookStore", "RuchitasBookStore\RuchitasBookStore.csproj", "{F79DC451-8A24-4D34-8D09-CD658B355CE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuchitasBooks.DataAccess", "RuchitasBooks.DataAccess\RuchitasBooks.DataAccess.csproj", "{AB01038D-80D9-42AC-A632-E5639C736578}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RuchitasBooks.DataAccess", "RuchitasBooks.DataAccess\RuchitasBooks.DataAccess.csproj", "{AB01038D-80D9-42AC-A632-E5639C736578}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuchitasBooks.Model", "RuchitasBooks.Model\RuchitasBooks.Model.csproj", "{FE56557E-2A8A-4086-B9AC-01E0BBDBF4F5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuchitasBooks.Utility", "RuchitasBooks.Utility\RuchitasBooks.Utility.csproj", "{B9B87ED0-0412-4A2A-BE36-609D0EA41A55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RuchitasBooks.Utility", "RuchitasBooks.Utility\RuchitasBooks.Utility.csproj", "{B9B87ED0-0412-4A2A-BE36-609D0EA41A55}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{48380505-3857-4566-95E2-B46037B43440}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuchitasBooks.Models", "RuchitasBooks.Models\RuchitasBooks.Models.csproj", "{EEABE100-2AA0-4609-A264-D9D6C4DDC93C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,14 +30,14 @@ Global
 		{AB01038D-80D9-42AC-A632-E5639C736578}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB01038D-80D9-42AC-A632-E5639C736578}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB01038D-80D9-42AC-A632-E5639C736578}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FE56557E-2A8A-4086-B9AC-01E0BBDBF4F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FE56557E-2A8A-4086-B9AC-01E0BBDBF4F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FE56557E-2A8A-4086-B9AC-01E0BBDBF4F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FE56557E-2A8A-4086-B9AC-01E0BBDBF4F5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B9B87ED0-0412-4A2A-BE36-609D0EA41A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B9B87ED0-0412-4A2A-BE36-609D0EA41A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9B87ED0-0412-4A2A-BE36-609D0EA41A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9B87ED0-0412-4A2A-BE36-609D0EA41A55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEABE100-2AA0-4609-A264-D9D6C4DDC93C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEABE100-2AA0-4609-A264-D9D6C4DDC93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEABE100-2AA0-4609-A264-D9D6C4DDC93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEABE100-2AA0-4609-A264-D9D6C4DDC93C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

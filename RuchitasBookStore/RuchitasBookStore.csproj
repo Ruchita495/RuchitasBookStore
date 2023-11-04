@@ -22,7 +22,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\RuchitasBooks.DataAccess\RuchitasBooks.DataAccess.csproj" />
-    <ProjectReference Include="..\RuchitasBooks.Model\RuchitasBooks.Model.csproj" />
     <ProjectReference Include="..\RuchitasBooks.Utility\RuchitasBooks.Utility.csproj" />
   </ItemGroup>
 
