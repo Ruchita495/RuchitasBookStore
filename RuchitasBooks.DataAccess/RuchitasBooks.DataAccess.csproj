@@ -16,8 +16,4 @@
     <ProjectReference Include="..\RuchitasBooks.Utility\RuchitasBooks.Utility.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Repository\IRepository\" />
-  </ItemGroup>
-
 </Project>

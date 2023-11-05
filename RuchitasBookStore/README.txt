@@ -103,3 +103,6 @@ add migration and update data base in RuchitasBooks.DataAccess project migration
 
 2023-11-05 0131
 create Repository and IRepository folder in RuchitasBooks.DataAccess project
+
+2023-11-05 0140
+add IRepository.cs fille and modify the code
