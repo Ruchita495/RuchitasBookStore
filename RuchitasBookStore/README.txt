@@ -115,3 +115,6 @@ add Repository.cs file and modify the code
 
 2023-11-05 0235
 add different files and interface file 
+
+2023-11-05 0245
+add SP_Call .cs file in Repository folder and modify the code
