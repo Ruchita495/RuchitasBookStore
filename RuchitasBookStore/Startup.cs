@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using RuchitasBooks.DataAccess.Repository;
 using RuchitasBookStore.DataAccess.Data;
 
 namespace RuchitasBookStore
@@ -29,6 +30,9 @@ namespace RuchitasBookStore
             /* remove the code options => options.SignIn.RequireConfirmedAccount = true*/
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            /* Add new code*/
+            services.AddScoped<UnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 
