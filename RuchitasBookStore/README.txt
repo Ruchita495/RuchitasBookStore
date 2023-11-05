@@ -98,3 +98,8 @@ add new class file called Category.cs and modify it according to slide
 2023-11-04 0244
 add migration using - add-migration AddCategoryToDb 
 
+2023-11-05 0128
+add migration and update data base in RuchitasBooks.DataAccess project migration folder
+
+2023-11-05 0131
+create Repository and IRepository folder in RuchitasBooks.DataAccess project
