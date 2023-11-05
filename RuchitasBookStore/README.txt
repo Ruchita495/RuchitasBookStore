@@ -125,3 +125,6 @@ update the code in SP_Call.cs file
 2023-11-05 0350
 update UnitOfWork.cs file and add code in Startup.cs file
 services.AddScoped<UnitOfWork, UnitOfWork>();
+
+2023-11-05 0410
+create new controller in Area-> Admin-> Controllers and modify the code
