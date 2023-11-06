@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using RuchitasBooks.DataAccess.Repository;
+using RuchitasBooks.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +19,23 @@ namespace RuchitasBookStore.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
+            return View();
+        }
+
+        public IActionResult Upsert(int? id) //action method for upsert
+        {
+            Category category = new Category();
+            if(id == null)
+            {
+                //this is for create
+                return View(category);
+            }
+
+            //this is for edit
+            if(category == null)
+            {
+                return NotFound();
+            }
             return View();
         }
 

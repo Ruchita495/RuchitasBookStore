@@ -7,13 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Areas\Admin\Views\Category\**" />
-    <Content Remove="Areas\Admin\Views\Category\**" />
-    <EmbeddedResource Remove="Areas\Admin\Views\Category\**" />
-    <None Remove="Areas\Admin\Views\Category\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="..\.editorconfig" Link=".editorconfig" />
   </ItemGroup>
 

@@ -131,3 +131,6 @@ create new controller in Area-> Admin-> Controllers and modify the code
 
 2023-11-06 0400
 add new Index.cshtml file in Area->Admin->View
+
+2023-11-06 0420
+create _CreateAndBackToListButton.cshtml file in Views - >Shared
