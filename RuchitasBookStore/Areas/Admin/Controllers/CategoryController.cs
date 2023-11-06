@@ -39,6 +39,8 @@ namespace RuchitasBookStore.Areas.Admin.Controllers
             return View();
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Upsert(Category category)
         {
             if (ModelState.IsValid)

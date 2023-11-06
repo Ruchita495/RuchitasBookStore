@@ -20,7 +20,7 @@ function loadDataTable() {
                                 <a href="/Admin/Category/Upsert/${data}" class="btn btn-success text-white" style="cursor:pointer">
                                     <i class="fas fa-edit"></i>&nbsp;
                                 </a>
-                                <a onclick=Delete("/Admin/Category/Delete/${date}")class="btn btn-danger text-white" style="cursor:pointer">
+                                <a onclick=Delete("/Admin/Category/Delete/${data}")class="btn btn-danger text-white" style="cursor:pointer">
                                     <i class="fas fa-trash-alt"></i>&nbsp;
                                 </a>
                             </div>
@@ -45,11 +45,11 @@ function Delete(url) {
                 url: url,
                 success: function (data) {
                     if (data.success) {
-                        toster.success(data.message);
+                        toastr.success(data.message);
                         dataTable.ajax.reload();
                     }
                     else {
-                        toster.error(data.message)
+                        toastr.error(data.message)
                     }
                 }
             });
