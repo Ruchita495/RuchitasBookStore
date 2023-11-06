@@ -128,3 +128,6 @@ services.AddScoped<UnitOfWork, UnitOfWork>();
 
 2023-11-05 0410
 create new controller in Area-> Admin-> Controllers and modify the code
+
+2023-11-06 0400
+add new Index.cshtml file in Area->Admin->View
