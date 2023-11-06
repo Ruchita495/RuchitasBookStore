@@ -134,3 +134,6 @@ add new Index.cshtml file in Area->Admin->View
 
 2023-11-06 0420
 create _CreateAndBackToListButton.cshtml file in Views - >Shared
+
+2023-11-06 0425
+create _EditAndBackToListButton.cshtml file in Views - >Shared
