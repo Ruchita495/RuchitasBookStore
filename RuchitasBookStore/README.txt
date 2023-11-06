@@ -143,3 +143,7 @@ add code in _Upsert.cshtml file
 
 2023-11-06 0530
 update the code in files
+
+2023-11-06 0630
+build the application
+run successfuly 

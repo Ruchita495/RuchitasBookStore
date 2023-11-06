@@ -17,10 +17,10 @@ function loadDataTable() {
                 "render": function (data) {
                     return `
                             <div class="text-center">
-                                <a href="/Admin/Category/Upsert/${data}" class="btn btn-success text-white" style="cursor:pointer">
+                                <a href="/Admin/Category/Upsert/${data}" class="btn btn-success text-dark" style="cursor:pointer">
                                     <i class="fas fa-edit"></i>&nbsp;
                                 </a>
-                                <a onclick=Delete("/Admin/Category/Delete/${data}")class="btn btn-danger text-white" style="cursor:pointer">
+                                <a onclick=Delete("/Admin/Category/Delete/${data}") class="btn btn-danger text-dark" style="cursor:pointer">
                                     <i class="fas fa-trash-alt"></i>&nbsp;
                                 </a>
                             </div>
@@ -36,9 +36,9 @@ function Delete(url) {
         text: "You will not be able to restore the data!",
         icon: "warning",
         button: true,
-        dabgerMode: true
+        dangerMode: true
 
-    }).then((willDelete)) => {
+    }).then((willDelete) => {
         if (willDelete) {
             $.ajax({
                 type: "DELETE",
@@ -49,10 +49,10 @@ function Delete(url) {
                         dataTable.ajax.reload();
                     }
                     else {
-                        toastr.error(data.message)
+                        toastr.error(data.message);
                     }
                 }
             });
         }
-    }
+    });
 }

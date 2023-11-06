@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿
+using Microsoft.AspNetCore.Mvc;
 using RuchitasBooks.DataAccess.Repository;
 using RuchitasBooks.Models;
 using System;
@@ -30,13 +31,13 @@ namespace RuchitasBookStore.Areas.Admin.Controllers
                 //this is for create
                 return View(category);
             }
-
+            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
             //this is for edit
             if(category == null)
             {
                 return NotFound();
             }
-            return View();
+            return View(category);
         }
 
         [HttpPost]
@@ -48,7 +49,6 @@ namespace RuchitasBookStore.Areas.Admin.Controllers
                 if (category.Id == 0)
                 {
                     _unitOfWork.Category.Add(category);
-                    _unitOfWork.Save();
                 }
                 else
                 {
