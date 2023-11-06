@@ -137,3 +137,9 @@ create _CreateAndBackToListButton.cshtml file in Views - >Shared
 
 2023-11-06 0425
 create _EditAndBackToListButton.cshtml file in Views - >Shared
+
+2023-11-06 0445
+add code in _Upsert.cshtml file
+
+2023-11-06 0530
+update the code in files
