@@ -1,12 +1,8 @@
-﻿using AndrewsBooks.DataAccess.Repository;
-using DocumentFormat.OpenXml.Drawing.Diagrams;
-using RuchitasBooks.DataAccess.Repository.IRepository;
+﻿using RuchitasBooks.DataAccess.Repository.IRepository;
 using RuchitasBookStore.DataAccess.Data;
-using System;
-using System.Collections.Generic;
+using RuchitasBookStore.Models;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using DocumentFormat.OpenXml.Drawing.Diagrams;
 
 namespace RuchitasBooks.DataAccess.Repository
 {

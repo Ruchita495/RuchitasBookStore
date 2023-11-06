@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace AndrewsBooks.DataAccess.Repository
+namespace RuchitasBooks.DataAccess.Repository
 {
     // Implements all the methods of the IRepository
     public class Repository<T> : IRepository<T> where T : class
