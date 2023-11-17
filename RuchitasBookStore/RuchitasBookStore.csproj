@@ -26,4 +26,8 @@
     <ProjectReference Include="..\RuchitasBooks.Utility\RuchitasBooks.Utility.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\products\" />
+  </ItemGroup>
+
 </Project>
