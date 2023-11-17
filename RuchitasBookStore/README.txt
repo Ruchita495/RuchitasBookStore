@@ -178,3 +178,9 @@ create migration to RuchitasBooks.DataAccess -> Migration folder
 2023-11-17 1130
 build project
 run successfully
+
+2023-11-17 1145
+create a file in Area -> Admin-> Product -> Upsert.cshtml
+
+2023-11-17 1150
+app run successfully
