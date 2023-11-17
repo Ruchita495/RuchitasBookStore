@@ -166,3 +166,6 @@ run successfuly
 create migration and add CoverType.cs file and also Create interface ICoverTypeRepository.cs and CoverTypeRepository.cs file
 
 20231117144053_AddCoverTypeToDb
+
+2023-11-17 1008
+perform CURD operations on CoverType
