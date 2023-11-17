@@ -3,14 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using RuchitasBooks.Models;
 
 namespace RuchitasBooks.DataAccess.Repository.IRepository
 {
-    interface UnitOfWork : IDisposable
+    public interface ICoverTypeRepository : IRepository<CoverType>
     {
-        ICategoryRepository Category { get; }
-
-        ICoverTypeRepository Covertype { get; }
-        ISP_Call SP_Call { get; }
+        void Update(CoverType covertype);
     }
 }

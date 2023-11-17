@@ -1,5 +1,6 @@
 ﻿using DocumentFormat.OpenXml.Drawing.Diagrams;
 using RuchitasBooks.DataAccess.Repository.IRepository;
+using RuchitasBooks.Models;
 using RuchitasBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
@@ -16,10 +17,12 @@ namespace RuchitasBooks.DataAccess.Repository
         {
             _db = db;
             Category = new CategoryRepository(_db);
+            Covertype = new CoverTypeRepository(_db);
             SP_Call = new SP_Call(_db);
         }
 
         public ICategoryRepository Category { get; private set; }
+        public ICoverTypeRepository Covertype { get; private set; }
         public ISP_Call SP_Call { get; private set; }
 
         public void Dispose()
