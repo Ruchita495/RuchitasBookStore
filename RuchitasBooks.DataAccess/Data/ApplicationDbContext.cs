@@ -14,7 +14,13 @@ namespace RuchitasBookStore.DataAccess.Data
 
         public DbSet<Category> Categories { get; set; }
 
+        /*adding CoverType to the DB*/
+
         public DbSet<CoverType> Covertypes { get; set; }
-       
+
+        /*adding Products to the DB*/
+
+        public DbSet<Product> Products { get; set; }
+
     }
 }
