@@ -10,7 +10,7 @@ using RuchitasBookStore.DataAccess.Data;
 namespace RuchitasBooks.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231117152302_AddProductToDb")]
+    [Migration("20231119150049_AddProductToDb")]
     partial class AddProductToDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
