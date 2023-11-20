@@ -23,19 +23,19 @@ namespace RuchitasBookStore.Areas.Admin.Controllers
 
         public IActionResult Upsert(int? id) //action method for upsert
         {
-            Category category = new Category();
+            Product product = new Product();
             if (id == null)
             {
                 //this is for create
-                return View(category);
+                return View(product);
             }
-            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
+            product = _unitOfWork.Product.Get(id.GetValueOrDefault());
             //this is for edit
-            if (category == null)
+            if (product == null)
             {
                 return NotFound();
             }
-            return View(category);
+            return View(product);
         }
 
         [HttpPost]
