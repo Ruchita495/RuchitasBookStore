@@ -27,16 +27,6 @@
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
 
-                        @*add like for Cover Type*@
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="Admin" asp-controller="CoverType" asp-action="Index">Cover Type</a>
-                        </li>
-
-                        @*add like for Product*@
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="Admin" asp-controller="Product" asp-action="Index">Product</a>
-                        </li>
-
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
@@ -46,7 +36,8 @@
                             <a class="nav-link text-white-50 bg-primary dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contant Management</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a>
-                                <a class="dropdown-item" href="#">Another Action</a>
+                                <a class="dropdown-item" asp-area="Admin" asp-controller="CoverType" asp-action="Index">Cover Type</a>
+                                <a class="dropdown-item" asp-area="Admin" asp-controller="Product" asp-action="Index">Product</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#">Somthing else here</a>
                             </div>
