@@ -173,7 +173,7 @@ perform CURD operations on CoverType
 2023-11-17 1020
 create Product.cs file and add the code 
 create migration to RuchitasBooks.DataAccess -> Migration folder
-20231117152302_AddProductToDb
+20231120190851_AddProductToDb
 
 2023-11-17 1130
 build project
