@@ -188,3 +188,4 @@ app run successfully
 
 2023-11-17 1205
 add sweet alert script in Area->Admin->Product->Upsert.cshtml
+

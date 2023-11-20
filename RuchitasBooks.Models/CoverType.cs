@@ -12,7 +12,7 @@ namespace RuchitasBooks.Models
         [Key]
         public int Id { get; set; }
 
-        [Display(Name = "Cover Name")]
+        [Display(Name = "Covertype Name")]
         [Required]
         [MaxLength(50)]
 
