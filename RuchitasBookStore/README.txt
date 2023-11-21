@@ -165,7 +165,7 @@ run successfuly
 2023-11-17 0930
 create migration and add CoverType.cs file and also Create interface ICoverTypeRepository.cs and CoverTypeRepository.cs file
 
-20231117144053_AddCoverTypeToDb
+20231120195024_AddCovertypeToDb
 
 2023-11-17 1008
 perform CURD operations on CoverType
@@ -173,7 +173,7 @@ perform CURD operations on CoverType
 2023-11-17 1020
 create Product.cs file and add the code 
 create migration to RuchitasBooks.DataAccess -> Migration folder
-20231120190851_AddProductToDb
+20231120195552_AddProductToDb
 
 2023-11-17 1130
 build project
