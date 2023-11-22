@@ -190,4 +190,7 @@ app run successfully
 add sweet alert script in Area->Admin->Product->Upsert.cshtml
 
 20213-11-22 0356
-wrie a code in prosuct controller so create product page is diaplayed
+write a code in product controller so create product page is diaplayed
+
+2023-11-22 0426
+update code in product.cs file and Area->Customer->View->Home->Index.cshtml to diaply images of books in home page
