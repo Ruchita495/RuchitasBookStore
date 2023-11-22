@@ -194,3 +194,6 @@ write a code in product controller so create product page is diaplayed
 
 2023-11-22 0426
 update code in product.cs file and Area->Customer->View->Home->Index.cshtml to diaply images of books in home page
+
+2023-11-22 0438
+add some code in productrepository file and create image folder in wwwroot folder to store product images
