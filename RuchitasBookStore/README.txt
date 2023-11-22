@@ -189,3 +189,5 @@ app run successfully
 2023-11-17 1205
 add sweet alert script in Area->Admin->Product->Upsert.cshtml
 
+20213-11-22 0356
+wrie a code in prosuct controller so create product page is diaplayed
