@@ -189,6 +189,10 @@ app run successfully
 2023-11-17 1205
 add sweet alert script in Area->Admin->Product->Upsert.cshtml
 
+
+=============================================================================================================================
+													PART-3
+=============================================================================================================================
 20213-11-22 0356
 write a code in product controller so create product page is diaplayed
 
@@ -200,3 +204,6 @@ add some code in productrepository file and create image folder in wwwroot folde
 
 2023-11-22 0445
 write some code in Admin->Customer->Controller->HomeController.cs file
+
+2023-11-22 0513
+add code in Area->Admin->View->Product->Upsert.cshtml file to display Price,Price50 and Prices100 textbox

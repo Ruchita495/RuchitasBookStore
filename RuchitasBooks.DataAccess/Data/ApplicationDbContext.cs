@@ -20,7 +20,7 @@ namespace RuchitasBookStore.DataAccess.Data
 
         /*adding Products to the DB*/
 
-         public DbSet<Product> Products { get; set; }
+        public DbSet<Product> Products { get; set; }
 
     }
 }
