@@ -197,3 +197,6 @@ update code in product.cs file and Area->Customer->View->Home->Index.cshtml to d
 
 2023-11-22 0438
 add some code in productrepository file and create image folder in wwwroot folder to store product images
+
+2023-11-22 0445
+write some code in Admin->Customer->Controller->HomeController.cs file
