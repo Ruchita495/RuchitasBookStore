@@ -10,8 +10,8 @@ using RuchitasBookStore.DataAccess.Data;
 namespace RuchitasBooks.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231120195552_AddProductToDb")]
-    partial class AddProductToDb
+    [Migration("20231123160258_AddProductsToDb")]
+    partial class AddProductsToDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -278,6 +278,7 @@ namespace RuchitasBooks.DataAccess.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImageUrl")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<double>("ListPrice")

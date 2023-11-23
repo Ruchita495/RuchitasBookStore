@@ -207,3 +207,8 @@ write some code in Admin->Customer->Controller->HomeController.cs file
 
 2023-11-22 0513
 add code in Area->Admin->View->Product->Upsert.cshtml file to display Price,Price50 and Prices100 textbox
+
+2023-11-1107
+by mistake i deleted the Product Table from database so i created new migration for Product table
+20231123160258_AddProductsToDb
+
