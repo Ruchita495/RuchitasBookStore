@@ -214,3 +214,6 @@ by mistake i deleted the Product Table from database so i created new migration 
 
 2023-11-23 1125
 add code in SD.cs file
+
+2023-11-27 0650
+add code in upsert.cshtml file
